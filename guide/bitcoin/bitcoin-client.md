@@ -529,6 +529,8 @@ When upgrading, there might be breaking changes, or changes in the data structur
   ```
 
 * Update gpg keys and verify checksums signatures
+
+  TODO: [#1230](https://github.com/raspibolt/raspibolt/issues/1230) - replace this with command or helper script
   
   ```sh
   $ wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/contrib/builder-keys/keys.txt -O keys.txt
